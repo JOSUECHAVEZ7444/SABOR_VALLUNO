@@ -1,7 +1,7 @@
 # Acta de Consultas y Definiciones del Proyecto
 
-**Estudiante:** Josué Chávez  
-**Docente / Cliente:** Ing. Roy A. Carrasco Aguilar  
+**Estudiante:** Guimel Josué Mamani Chávez  
+**Docente:** Ing. Roy A. Carrasco Aguilar  
 **Variante:** A  
 
 > **Nota:** No se realizaron consultas directas adicionales al docente durante el desarrollo. Todas las reglas de negocio y casos borde se definieron a partir del documento de especificaciones de la **Variante A** y consultas técnicas con **Gemini** realizadas el **23/11/2026**.
