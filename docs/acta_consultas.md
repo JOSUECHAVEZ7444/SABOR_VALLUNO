@@ -1,7 +1,7 @@
 # Acta de Consultas al Cliente (Docente)
 
 **Estudiante:** Guimel Josue Mamani Chavez  
-**Docente / Cliente:** Ing. Roy A. Carrasco Aguilar  
+**Docente:** Ing. Roy A. Carrasco Aguilar  
 **Variante:** A  
 
 | N.º | Fecha | Pregunta realizada al docente | Respuesta oficial del cliente | Impacto en el sistema |
