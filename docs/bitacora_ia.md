@@ -4,28 +4,28 @@
 **Variante:** A  
 **Semanas:** 2, 3 y 4  
 
-### Registro N.º 1 — 10/11/2026
+### Registro N.º 1 — 19/11/2026
 - **Herramienta:** Gemini | **Tipo de uso:** Generación de código | **¿Lo explico sin ayuda?:** Sí
 - **Archivo o clase:** `modelo/productos.py`, `modelo/pedidos.py`, `modelo/pagos.py`
 - **Consulta textual:** "Cómo estructurar las clases abstractas Producto, Pedido y MetodoPago usando ABC y @property según mi diagrama v2"
 - **Qué acepté:** La estructura base con `ABC`, `@abstractmethod` y `@property` para encapsular atributos privados.
 - **Qué modifiqué y por qué:** Ajusté las validaciones específicas de la Variante A (descuento 10 %, Bs 2 por plato, Cercado >= 150, chicharrón solo domingo) y simplifiqué los métodos para mantener el código claro.
 
-### Registro N.º 2 — 14/11/2026
+### Registro N.º 2 — 19/11/2026
 - **Herramienta:** Gemini | **Tipo de uso:** Error | **¿Lo explico sin ayuda?:** Sí
 - **Archivo o clase:** `modelo/pedidos.py` (`PedidoParaLlevar`)
 - **Consulta textual:** "Por qué me aparece TypeError: PedidoParaLlevar.__init__() missing 1 required positional argument: 'cliente' al correr pruebas.py"
 - **Qué acepté:** La explicación del orden de parámetros en el constructor `__init__` y la llamada a `super().__init__(cliente)`.
 - **Qué modifiqué y por qué:** Corregí la firma de `PedidoParaLlevar.__init__(self, cliente, costo_envase=2.0)` para recibir `cliente` primero.
 
-### Registro N.º 3 — 17/11/2026
+### Registro N.º 3 — 23/11/2026
 - **Herramienta:** Gemini | **Tipo de uso:** Error | **¿Lo explico sin ayuda?:** Sí
 - **Archivo o clase:** `modelo/pedidos.py`
 - **Consulta textual:** "Por qué sale ModuleNotFoundError: No module named 'modelo' al ejecutar directamente pedidos.py"
 - **Qué acepté:** Que al ejecutar un módulo interno directamente Python toma `modelo/` como raíz en lugar de la carpeta del proyecto.
 - **Qué modifiqué y por qué:** Ejecuté el proyecto únicamente desde `main.py` y `pruebas.py` en la raíz.
 
-### Registro N.º 4 — 20/11/2026
+### Registro N.º 4 — 23/11/2026
 - **Herramienta:** Gemini | **Tipo de uso:** Revisión | **¿Lo explico sin ayuda?:** Sí
 - **Archivo o clase:** `main.py`, `restaurante.py`, `modelo/pedidos.py`, `pruebas.py`
 - **Consulta textual:** "Revisar si el código cumple con polimorfismo sin isinstance y las reglas de negocio base y Variante A"
